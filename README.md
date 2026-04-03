@@ -1,4 +1,6 @@
 # Ejemplo carrito de compras con objeto y template
+# Solo los archivos index.html y practicaTemplate.js son partes de la app. carrito compras
+# Los demas archivos son materia de estudio.
 
 ## template
 ```html 
