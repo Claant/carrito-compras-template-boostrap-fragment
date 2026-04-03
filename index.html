@@ -56,27 +56,7 @@
     </main>
 
 <section class="container mt-3">
-<ul class="list-group" id="carrito">
-<!-- el LI es el elemento que se repite-->
-<li class="list-group-item bg-secondary text-white">
-<span class="badge bg-primary rounded-pill align-middle">12</span>
-<span class="lead align-middle">Frutilla</span>
-</li>
-
-<li class="list-group-item d-flex justify-content-between align-items-center">
-<div>
-<p class="lead mb-0">Total: <span>100</span></p>
-</div>
-
-
-<div>
-
-</div>
-
-
-
-</li>
-</ul>
+<ul class="list-group" id="carrito"></ul>
 </section>
 
 
@@ -85,8 +65,7 @@
 <div class="card">
   <div class="card-body d-flex justify-content-between align-items-center">
     <p class="lead mb-0">Total $<span>1500</span></p>
-    <button class="btn btn-outline-primary">Finalizar Compra</button>
-
+    <button class="btn btn-outline-info">Finalizar Compra</button>
   </div>
 </div>
 </template>
@@ -95,17 +74,26 @@
 
 <template id="template">
   <!-- el LI es el elemento que se repite-->
-<li class="list-group-item d-flex justify-content-between align-items-center">
-<span class="badge bg-primary rounded-pill">12</span>
-<span class="lead">Frutilla</span>
+<li class="list-group-item bg-secondary text-white">
+<span class="badge bg-primary rounded-pill align-middle">12</span>
+<span class="lead align-middle">Frutilla</span>
 </li>
+<!--separa los elementos uno a la derecha y el otro a la izquierda con boostrap-->
+<li class="list-group-item d-flex justify-content-between align-items-center">
+<div>
+<p class="lead mb-0">Total: <span>100</span></p>
+</div>
+<div>
+  <button class="btn btn-sm btn-danger">Quitar</button>
+    <button class="btn btn-sm btn-success">Agregar</button>
 
-<li class="list-group-item">
-  
+</div>
+
+
+
 </li>
 
 </template>
-
 
     <script src="practicaTemplate.js"></script>
   </body>
